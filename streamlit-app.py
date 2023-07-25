@@ -2,6 +2,7 @@ import pandas as pd
 import numpy as np
 import streamlit as st	
 import pickle
+import sklearn
 from sklearn.externals import joblib
 from joblib import dump, load
 from sklearn.ensemble import ExtraTreesRegressor
