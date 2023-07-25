@@ -71,4 +71,4 @@ print(y_pred)
 st.subheader('Predicted Price in rupees')
 st.write(np.round(y_pred,0))
 
-#streamlit run "D:\used car\something.py" 333329
+#streamlit run "D:\used car\something.py" 
