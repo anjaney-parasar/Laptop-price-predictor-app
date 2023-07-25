@@ -2,7 +2,6 @@ import pandas as pd
 import numpy as np
 import streamlit as st	
 import pickle
-from sklearn.externals import joblib
 from joblib import dump, load
 from sklearn.ensemble import ExtraTreesRegressor
 from sklearn.preprocessing import LabelEncoder, StandardScaler	
