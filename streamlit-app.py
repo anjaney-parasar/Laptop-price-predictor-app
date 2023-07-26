@@ -69,6 +69,7 @@ model=load('regression_model.joblib')
 y_pred=model.predict(df)
 print(y_pred)
 st.subheader('Predicted Price in rupees')
+st.write("Click on the arrow on the top left corner to open input features window (if not already opened)")
 st.write(np.round(y_pred,0))
 
-#streamlit run "D:\used car\something.py" 
+ 
