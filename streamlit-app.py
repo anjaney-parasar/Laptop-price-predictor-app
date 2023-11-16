@@ -73,6 +73,6 @@ st.write("Click on the arrow on the top left corner to open input features windo
 st.write(np.round(y_pred,0))
 
 st.markdown('''**NOTE** This app is based on a dataset of laptop prices in 2021 , so the predictions 
-		might be a little offset''' 
+		might be a little offset''')
 
  
